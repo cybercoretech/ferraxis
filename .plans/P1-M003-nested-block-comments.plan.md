@@ -314,7 +314,7 @@ No Cargo manifest or dependency changes are expected.
 ## Completion record
 
 Implementation commit: e3c37407fed0592c1b6f5c71e24ff355d5fa664b
-CI workflow: <https://github.com/cybercore-tech/ferraxis/actions>
+CI workflow: <https://github.com/cybercoretech/ferraxis/actions>
 CI result: success
 Completed: 2026-09-18
 Notes: P1-M003 completed with exact implementation CI and inspected differential evidence.
@@ -323,10 +323,10 @@ Evidence:
 
 - Approved plan checkpoint: `5c7cb524c4007e28a997b09d89660d520b51ebe9`.
 - Approved plan checkpoint CI:
-  <https://github.com/cybercore-tech/ferraxis/actions>.
+  <https://github.com/cybercoretech/ferraxis/actions>.
 - Final validated implementation head: `e3c37407fed0592c1b6f5c71e24ff355d5fa664b`.
 - Exact successful implementation CI:
-  <https://github.com/cybercore-tech/ferraxis/actions>.
+  <https://github.com/cybercoretech/ferraxis/actions>.
 - Differential artifact: `p0-m018-differential-lexer`, artifact ID `10577216286`.
 - Artifact digest:
   `sha256:103644d06152b940675780c9bc555061a2b006cf26a0f22197825b92888376c7`.

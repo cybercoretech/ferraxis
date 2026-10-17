@@ -5,7 +5,7 @@
 Ferraxis is an independent Rust compiler implementation focused on compiler diversity,
 portability, self-hosting, and backend independence.
 
-**[Open the Ferraxis project page →](https://cybercore-tech.github.io/ferraxis/)**
+**[Open the Ferraxis project page →](https://cybercoretech.github.io/ferraxis/)**
 
 The page is the visual entry point for the project: architecture, current Phase 0
 capabilities, principles, and the first executable token-probe workflow.

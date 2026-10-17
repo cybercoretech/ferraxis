@@ -20,7 +20,7 @@ No implementation milestone is currently active and `.plans/ACTIVE` is intention
 - `P1-M005` — Delimiters.
 - Final validated implementation head: `95c8eb93183d12d4665c9031c49d9492d35c3316`.
 - Exact implementation CI:
-  <https://github.com/cybercore-tech/ferraxis/actions>.
+  <https://github.com/cybercoretech/ferraxis/actions>.
 - Differential artifact: `p0-m018-differential-lexer`, artifact ID `10578220814`.
 - Result: 38/38 committed differential classifications matched.
 - ADR-0013 permanently assigns delimiter grouping and balance validation after lexing.
@@ -30,7 +30,7 @@ No implementation milestone is currently active and `.plans/ACTIVE` is intention
 - `P1-M004` — Punctuation.
 - Main merge: `8af85fa0abb5e055dd0a3c1c2e6f53aa0fff7c2d`.
 - Post-merge main CI:
-  <https://github.com/cybercore-tech/ferraxis/actions>.
+  <https://github.com/cybercoretech/ferraxis/actions>.
 - `P1-M003` — Nested block comments.
 - `P1-M002` — Block comments.
 - `P1-M001` — Line comments.

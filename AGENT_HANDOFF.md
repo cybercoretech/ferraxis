@@ -8,7 +8,7 @@
 - Final validated P1-M005 implementation head:
   `95c8eb93183d12d4665c9031c49d9492d35c3316`.
 - P1-M005 implementation CI:
-  <https://github.com/cybercore-tech/ferraxis/actions>.
+  <https://github.com/cybercoretech/ferraxis/actions>.
 - Differential artifact ID: `10578220814`.
 - Differential result: 38/38 committed classifications matched.
 

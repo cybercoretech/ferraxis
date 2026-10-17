@@ -232,7 +232,7 @@ The unmatched-delimiter case is explicitly token-tree evidence, not proof of a r
 ## Completion record
 
 Implementation commit: dc9b792c42e1fe111ea60c88358ec8c2f9d9038a
-CI workflow: <https://github.com/cybercore-tech/ferraxis/actions>
+CI workflow: <https://github.com/cybercoretech/ferraxis/actions>
 CI result: success
 Completed: 2026-09-18
 Notes: 11/11 committed classifications matched; final evidence artifact inspected.
@@ -242,7 +242,7 @@ Evidence:
 - Approved-plan checkpoint head: `72caa6023b2879f23eaabeb037aa684d793a1f83`.
 - Harness implementation commit: `1e65997b1ae80b2deb560a1774c678e7109d9e1c`.
 - Final validated head: `dc9b792c42e1fe111ea60c88358ec8c2f9d9038a`.
-- Final CI workflow: <https://github.com/cybercore-tech/ferraxis/actions>.
+- Final CI workflow: <https://github.com/cybercoretech/ferraxis/actions>.
 - Artifact: `p0-m018-differential-lexer`, GitHub artifact ID `10575304463`.
 - Artifact digest:
   `sha256:4bd6cc5a32d9faaf728ae07110fae4aa3cbd917135fc902f9ddfd0c915691f44`.

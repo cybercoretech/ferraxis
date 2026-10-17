@@ -15,7 +15,7 @@ edition = "2024"
 rust-version = "1.85"
 version = "0.0.3"
 authors = ["Ferraxis contributors"]
-repository = "https://github.com/cybercore-tech/ferraxis"
+repository = "https://github.com/cybercoretech/ferraxis"
 
 [workspace.lints.rust]
 unsafe_code = "forbid"

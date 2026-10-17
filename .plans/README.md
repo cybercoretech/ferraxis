@@ -47,5 +47,5 @@ git push
 ./scripts/ci-watch
 
 # after exact CI success
-./scripts/plan close --ci-run https://github.com/cybercore-tech/ferraxis/actions/runs/<id>
+./scripts/plan close --ci-run https://github.com/cybercoretech/ferraxis/actions/runs/<id>
 ```

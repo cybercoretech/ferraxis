@@ -441,7 +441,7 @@ No Cargo manifest, lockfile, or dependency change is expected.
 ## Completion record
 
 Implementation commit: 7baa2974e1fbc109399ccc91e94d9802489d6b7e
-CI workflow: <https://github.com/cybercore-tech/ferraxis/actions>
+CI workflow: <https://github.com/cybercoretech/ferraxis/actions>
 CI result: success
 Completed: 2026-09-18
 Notes: P1-M004 completed after implementation repair, exact CI validation, and differential artifact inspection.
@@ -452,14 +452,14 @@ Evidence:
 - Initial plan CI run 35420510194 failed only on Markdown table lint.
 - Final Approved plan checkpoint: `d7070206d1cbb8cff04edea49ca688f653259060`.
 - Final Approved plan checkpoint CI:
-  <https://github.com/cybercore-tech/ferraxis/actions>.
+  <https://github.com/cybercoretech/ferraxis/actions>.
 - Initial semantic implementation commit: `fce2ce1055c2b7a61d44f9729e78ebea5975fc53`.
 - Implementation CI run 35420746526 exposed a generated-source assembly defect and rustfmt drift.
 - Repair commit: `16f5ed90658808ed66fc782aadf4ef1636c8f9f5`.
 - Run 35420884872 was superseded by the final rustfmt-only repair and cancelled.
 - Final validated implementation head: `7baa2974e1fbc109399ccc91e94d9802489d6b7e`.
 - Exact successful implementation CI:
-  <https://github.com/cybercore-tech/ferraxis/actions>.
+  <https://github.com/cybercoretech/ferraxis/actions>.
 - Differential artifact: `p0-m018-differential-lexer`, artifact ID `10577067943`.
 - Artifact digest:
   `sha256:7f6ec43b847a84d6cbe72d8f2b1eab32d66b01239c119d6915a8a288b053ae7a`.

@@ -354,7 +354,7 @@ No Cargo manifest or dependency changes are expected.
 ## Completion record
 
 Implementation commit: 95c8eb93183d12d4665c9031c49d9492d35c3316
-CI workflow: <https://github.com/cybercore-tech/ferraxis/actions>
+CI workflow: <https://github.com/cybercoretech/ferraxis/actions>
 CI result: success
 Completed: 2026-09-18
 Notes: P1-M005 completed with exact implementation CI, differential artifact inspection, and the delimiter/grouping architecture boundary preserved.
@@ -363,13 +363,13 @@ Evidence:
 
 - Approved plan checkpoint: `174a6e4c44b9f998d3ff3138fac895c071e22543`.
 - Approved plan checkpoint CI:
-  <https://github.com/cybercore-tech/ferraxis/actions>.
+  <https://github.com/cybercoretech/ferraxis/actions>.
 - Semantic implementation commit: `75277f990b68334b1aa5fcfe0fc04fa62c480aab`.
 - Implementation CI run 35422801222 passed repository workflow, differential evidence, MSRV,
   documentation, and feature isolation but failed `cargo fmt --check` only.
 - Rustfmt-only repair commit: `95c8eb93183d12d4665c9031c49d9492d35c3316`.
 - Final validated implementation CI:
-  <https://github.com/cybercore-tech/ferraxis/actions>.
+  <https://github.com/cybercoretech/ferraxis/actions>.
 - Final implementation run passed all six CI jobs.
 - Differential artifact: `p0-m018-differential-lexer`, artifact ID `10578220814`.
 - Artifact digest:

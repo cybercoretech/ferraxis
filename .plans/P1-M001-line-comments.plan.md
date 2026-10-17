@@ -289,7 +289,7 @@ mechanism may add exact EOF differential evidence without weakening the tracked-
 ## Completion record
 
 Implementation commit: b4b8e10f4a95dfde6837e0e8d605746eab695317
-CI workflow: <https://github.com/cybercore-tech/ferraxis/actions>
+CI workflow: <https://github.com/cybercoretech/ferraxis/actions>
 CI result: success
 Completed: 2026-09-18
 Notes: P1-M001 completed with exact implementation CI and inspected differential evidence.
@@ -298,10 +298,10 @@ Evidence:
 
 - Approved plan checkpoint: `75f65b476606941e50a25b65cfef6d6c364da5a9`.
 - Approved plan checkpoint CI:
-  <https://github.com/cybercore-tech/ferraxis/actions>.
+  <https://github.com/cybercoretech/ferraxis/actions>.
 - Final validated implementation head: `b4b8e10f4a95dfde6837e0e8d605746eab695317`.
 - Exact implementation CI:
-  <https://github.com/cybercore-tech/ferraxis/actions>.
+  <https://github.com/cybercoretech/ferraxis/actions>.
 - Differential artifact: `p0-m018-differential-lexer`, GitHub artifact ID `10575823857`.
 - Artifact digest:
   `sha256:c5de668d3ae557c7d73b591c9aef5e0017f51acca1cad3c0e3f07939b4e82783`.
