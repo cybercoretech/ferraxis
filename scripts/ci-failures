@@ -2,7 +2,7 @@
 set -euo pipefail
 
 cd "$(git rev-parse --show-toplevel)"
-REPO="${FERRAXIS_GH_REPO:-cybercore-tech/ferraxis}"
+REPO="${FERRAXIS_GH_REPO:-cybercoretech/ferraxis}"
 RUN_ID="${1:-}"
 
 command -v gh >/dev/null 2>&1 || {
