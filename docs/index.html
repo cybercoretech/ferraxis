@@ -12,7 +12,57 @@
     <link rel="icon" href="assets/ferraxis-mark.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
     <title>Ferraxis — Compiler Diversity, Forged</title>
-  </head>
+    <link rel="stylesheet" href="https://cybercoretech.github.io/kit/chooser.css">
+  <style>
+    cybercore-theme-chooser{--ccx-bg:var(--panel);--ccx-fg:var(--text);--ccx-line:var(--line);--ccx-accent:var(--copper);--ccx-focus:var(--cyan);--ccx-field:var(--void);--ccx-muted:var(--muted);--ccx-button-bg:transparent;--ccx-button-border:var(--line);--ccx-radius:8px;--ccx-button-width:auto;--ccx-height:2.25rem;--ccx-glow:.5;}
+  </style>
+  <script>window.SITE = Object.assign(window.SITE || {}, {"siteLabel": "Ferraxis", "themeVars": {"bg": "--void", "white": "--text", "orange": "--copper", "hot_pink": "--ember", "acid_green": "--lime"}});</script>
+  <script type="module" src="https://cybercoretech.github.io/kit/chooser.js"></script>
+  <style id="cc-mobile-first">
+/* Mobile floor (phones + tablets): readable text and finger-sized targets.
+   Generated per range from what renders under 11px / 24px; desktop untouched. */
+@media (max-width: 600px) {
+  small,
+  span.nav-meta,
+  span.signal,
+  span.index,
+  span.step-no,
+  div.terminal-top > span { font-size: 11px !important; }
+}
+@media (min-width: 601px) and (max-width: 860px) {
+  small,
+  span.nav-meta,
+  span.signal,
+  span.index,
+  span.step-no,
+  div.terminal-top > span { font-size: 11px !important; }
+}
+@media (min-width: 861px) and (max-width: 1024px) {
+  small,
+  span.nav-meta,
+  span.signal,
+  span.index,
+  span.step-no,
+  div.terminal-top > span { font-size: 11px !important; }
+}
+@media (pointer: coarse) {
+  span > a { display: inline-flex; align-items: center; min-height: 24px; min-width: 24px; }
+}
+/* Layout fixes: phones and tablets only; laptops and desktops untouched. */
+@media (max-width: 1024px) {
+  /* Mobile first: nothing may make the page wider than the screen.
+     Grid/flex columns may shrink below their widest line; code scrolls in place. */
+  pre { max-width: 100%; overflow-x: auto; }
+  img, video { max-width: 100%; height: auto; }
+  div.terminal-layout > * { min-width: 0; }
+  div.terminal-top > * { min-width: 0; }
+  pre { max-width: 100%; overflow-x: auto; }
+  ul.check-list > * { min-width: 0; }
+  /* Long paths and URLs in inline code may break anywhere instead of widening the page. */
+  :not(pre) > code { overflow-wrap: anywhere; }
+}
+  </style>
+</head>
   <body>
     <header class="site-header">
       <div class="shell nav">
@@ -26,6 +76,7 @@
           <a href="#quickstart">Quickstart</a>
           <a href="https://github.com/cybercoretech/ferraxis">GitHub ↗</a>
         <a data-cybercore-master-docs href="https://cybercoretech.github.io/cybercore/docs.html" style="color:#22e6ff;border:1px solid #263454;border-radius:999px;padding:7px 12px;text-decoration:none;font:600 .7rem ui-monospace,monospace;letter-spacing:.08em;white-space:nowrap">MASTER DOCS ↗</a></nav>
+        <cybercore-theme-chooser compact match=".nav-links a:not([data-cybercore-master-docs])"></cybercore-theme-chooser>
         <span class="nav-meta">PHASE_0 // FOUNDATION</span>
       </div>
     </header>
